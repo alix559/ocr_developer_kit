@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ocr_developer_kit"
+  site-url: "https://alix559.github.io/ocr_developer_kit"
+  description: "Literate programming for Cole's OCR team"
+  repo-branch: main
+  repo-url: "https://github.com/alix559/ocr_developer_kit"

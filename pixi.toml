@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Alex Jacob <alixjcob559@gmail.com>"]
+channels = ["conda-forge"]
+name = "ocr_developer_kit"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+quarto = "quarto"
+ipykernel = "ipykernel"
+nbdev = "nbdev"
+shell = "pixi shell"
+
+[dependencies]
+quarto = "*"
+ipykernel = ">=6.30.1,<7"
+nbdev = ">=2.3.34,<3"
+jupyter = ">=1.1.1,<2"

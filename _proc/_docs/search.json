@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "deck",
+    "section": "",
+    "text": "source\n\nDeck\n\n Deck ()\n\nA deck of 52 cards, not including jokers\n\ndeck = Deck()\ndeck\n\nA♣️; 2♣️; 3♣️; 4♣️; 5♣️; 6♣️; 7♣️; 8♣️; 9♣️; 10♣️; J♣️; Q♣️; K♣️; A♦️; 2♦️; 3♦️; 4♦️; 5♦️; 6♦️; 7♦️; 8♦️; 9♦️; 10♦️; J♦️; Q♦️; K♦️; A♥️; 2♥️; 3♥️; 4♥️; 5♥️; 6♥️; 7♥️; 8♥️; 9♥️; 10♥️; J♥️; Q♥️; K♥️; A♠️; 2♠️; 3♠️; 4♠️; 5♠️; 6♠️; 7♠️; 8♠️; 9♠️; 10♠️; J♠️; Q♠️; K♠️\n\n\nThat should be 52 cards.\n\ntest_eq(len(deck), 52)\n\nAs a reminder , these are the suits we defined for a card:\n\nsuits\n\n['♣️', '♦️', '♥️', '♠️']\n\n\nWe can check if , say, the Ace of clubs is in the deck\n\nCard(1,1) in deck\n\nTrue\n\n\n\nsource\n\n\nDeck.pop\n\n Deck.pop (idx:int=-1)\n\nRemove one card from the deck\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nidx\nint\n-1\nThe index of the card to remove , defaulting to the last one\n\n\n\n\ndeck = Deck()\ntest_eq(deck.pop(), Card(3,13))\n\nThere are 51 cards left in the deck now\n\ntest_eq(len(deck), 51)\n\n\nsource\n\n\nDeck.remove\n\n Deck.remove (card:ocr_developer_kit.card.Card)\n\nRemoves card from the deck or raises exception if it is not there\n\n\n\n\nType\nDetails\n\n\n\n\ncard\nCard\nCard to remove\n\n\n\n\ncard23 = Card(2,3)\ndeck.remove(card23)\n\nassert card23 not in deck\n\n\nDeck(\n\n\nInit signature: Deck()\nDocstring:      &lt;no docstring&gt;\nType:           type\nSubclasses:",
+    "crumbs": [
+      "deck"
+    ]
+  },
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "card - A basic playing card",
+    "section": "",
+    "text": "We will be using numbers to represent playing card clubs and ranks. These are the suits\nsuits\n\n['♣️', '♦️', '♥️', '♠️']\nranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\nFor instance the rank at index 1(note that there isnt a playing card at position 0, since we want the ranks to match the indices where possible\nranks[1]\n\n'A'\nsource",
+    "crumbs": [
+      "card - A basic playing card"
+    ]
+  },
+  {
+    "objectID": "card.html#comparision-operators",
+    "href": "card.html#comparision-operators",
+    "title": "card - A basic playing card",
+    "section": "Comparision Operators",
+    "text": "Comparision Operators\n\nEquality, less than, and greater than work on the rank and suit indices\n\n\nsource\n\nCard.__eq__\n\n Card.__eq__ (a:__main__.Card)\n\nReturn self==value.\n\ntest_eq(Card(suit=1,rank=2), Card(suit=1,rank=2))\ntest_ne(Card(suit=2,rank=3), Card(suit=1,rank=2))\ntest_ne(Card(suit=1,rank=2), Card(suit=1,rank=3))\n\n\nsource\n\n\nCard.__gt__\n\n Card.__gt__ (a:__main__.Card)\n\nReturn self&gt;value.\n\nassert  Card(suit=2, rank=2) &gt; Card(suit=1, rank=1)",
+    "crumbs": [
+      "card - A basic playing card"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ocr_developer_kit",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "ocr_developer_kit"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "ocr_developer_kit",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall ocr_developer_kit in Development mode\n# make sure ocr_developer_kit package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to ocr_developer_kit\n$ nbdev_prepare",
+    "crumbs": [
+      "ocr_developer_kit"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "ocr_developer_kit",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/alix559/ocr_developer_kit.git\nor from conda\n$ conda install -c alix559 ocr_developer_kit\nor from pypi\n$ pip install ocr_developer_kit\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "ocr_developer_kit"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "ocr_developer_kit",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "ocr_developer_kit"
+    ]
+  }
+]
