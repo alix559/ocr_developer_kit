@@ -8,49 +8,7 @@ on:
   push:
     branches: [ "main", "master" ]
   workflow_dispatch:
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          
-      - name: Install system dependencies for manim
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libcairo2-dev \
-            libpango1.0-dev \
-            libgdk-pixbuf2.0-dev \
-            libffi-dev \
-            shared-mime-info \
-            libgirepository1.0-dev \
-            libcairo2-dev \
-            libpango1.0-dev \
-            libgdk-pixbuf2.0-dev \
-            libffi-dev \
-            shared-mime-info \
-            libgirepository1.0-dev \
-            pkg-config \
-            libpangocairo-1.0-0
-            
-      - name: Install nbdev
-        run: pip install -Uq nbdev
-        
-      - name: Install package
-        run: |
-          pip install -e '.[dev]' --extra-index-url https://download.pytorch.org/whl/cpu
-          
-      - name: Build docs
-        run: nbdev_build_docs
-        
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_docs
+    steps: [uses: fastai/workflows/quarto-ghp@master]
