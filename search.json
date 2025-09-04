@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "instruction_manual.html",
+    "href": "instruction_manual.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "click on the Terminal Icon on the top of the interface\nclick on new terminal option\ntype “pixi shell” in the terminal and press Enter",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "instruction_manual.html#step1-start-a-session-using-the-ocr_developer_kit",
+    "href": "instruction_manual.html#step1-start-a-session-using-the-ocr_developer_kit",
+    "title": "Getting Started",
+    "section": "",
+    "text": "click on the Terminal Icon on the top of the interface\nclick on new terminal option\ntype “pixi shell” in the terminal and press Enter",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "instruction_manual.html#step2-install-ocr_developer_kit-in-development-mode",
+    "href": "instruction_manual.html#step2-install-ocr_developer_kit-in-development-mode",
+    "title": "Getting Started",
+    "section": "step2: Install ocr_developer_kit in development mode",
+    "text": "step2: Install ocr_developer_kit in development mode\ntype “pip install -e .”",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "instruction_manual.html#step3-activate-the-lab-session",
+    "href": "instruction_manual.html#step3-activate-the-lab-session",
+    "title": "Getting Started",
+    "section": "step3: Activate the lab session",
+    "text": "step3: Activate the lab session\ntype “jupyter lab” and press enter",
+    "crumbs": [
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ocr_developer_kit",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "ocr_developer_kit"
+    ]
+  },
+  {
+    "objectID": "renderer.html",
+    "href": "renderer.html",
+    "title": "Renderer",
+    "section": "",
+    "text": "We are generating invoice images by passing in the json data to the animation engine. It is a good practise to often test the json and image interplay to check if everything is working correctly, for example an invoice might be missing out some rows that were intended for a particular page because the animation engine was fed in a wrong height value.\n\nsource\n\n\n\n render_single_page (frame_number=0)\n\nRender an invoice with a corresponding JSON object identified as frame_number and display the PNG inline in Jupyter.\n\nThe above function can be used like render_single_page(1) , the value we provide the function is the json object that we wish to render.\nIf the dataset has 10 json objects to render the 1st object the command would be render_single_page(0) ( the indexing starts from 0,1,2 .. )\n\n\nsource\n\n\n\n\n render_with_custom_data (data_source, frame_number=0)\n\nRender an invoice with a custom JSON data source identified as frame_number and display the PNG inline in Jupyter.\nyou can use it like render_with_custom_data(“/home/ajacob/mlprojects/ocr/ocr_developer_kit/ocr_developer_kit/invoice_data.json”, 4)\nHere the first argument to the method is the path of the json data, and the send argument is the integer that represents which json object is being passed in from the json data.\n\nsource\n\n\n\n\n render_frame ()\n\nRender a frame by providing the json object number and the path to the json file\nrender_frame() can be used as it is , it is interactive in nature",
+    "crumbs": [
+      "Renderer"
+    ]
+  },
+  {
+    "objectID": "renderer.html#single-page-render",
+    "href": "renderer.html#single-page-render",
+    "title": "Renderer",
+    "section": "",
+    "text": "We are generating invoice images by passing in the json data to the animation engine. It is a good practise to often test the json and image interplay to check if everything is working correctly, for example an invoice might be missing out some rows that were intended for a particular page because the animation engine was fed in a wrong height value.\n\nsource\n\n\n\n render_single_page (frame_number=0)\n\nRender an invoice with a corresponding JSON object identified as frame_number and display the PNG inline in Jupyter.\n\nThe above function can be used like render_single_page(1) , the value we provide the function is the json object that we wish to render.\nIf the dataset has 10 json objects to render the 1st object the command would be render_single_page(0) ( the indexing starts from 0,1,2 .. )\n\n\nsource\n\n\n\n\n render_with_custom_data (data_source, frame_number=0)\n\nRender an invoice with a custom JSON data source identified as frame_number and display the PNG inline in Jupyter.\nyou can use it like render_with_custom_data(“/home/ajacob/mlprojects/ocr/ocr_developer_kit/ocr_developer_kit/invoice_data.json”, 4)\nHere the first argument to the method is the path of the json data, and the send argument is the integer that represents which json object is being passed in from the json data.\n\nsource\n\n\n\n\n render_frame ()\n\nRender a frame by providing the json object number and the path to the json file\nrender_frame() can be used as it is , it is interactive in nature",
+    "crumbs": [
+      "Renderer"
+    ]
+  },
+  {
+    "objectID": "komatsu_page2.html",
+    "href": "komatsu_page2.html",
+    "title": "Layout Creation",
+    "section": "",
+    "text": "We define the configuration of the page layout as follows , in a way we are telling the pixel density of the page wit the following\nSome constants related to the creation of a page are as follows",
+    "crumbs": [
+      "Layout Creation"
+    ]
+  },
+  {
+    "objectID": "komatsu_page2.html#utility-functions",
+    "href": "komatsu_page2.html#utility-functions",
+    "title": "Layout Creation",
+    "section": "Utility functions",
+    "text": "Utility functions\nManim library accepts its coordinate values in a system that points its origin to the center of the page, we have to convert it to the top left orgin system, we use the following method for that purpose\n\nsource\n\npaint_pixels\n\n paint_pixels (px, axis='x', system='manim')\n\nprovide the distance value in pixels , the axis (x or y)\nSimilarly to place a text character or word in the top left coordinate system we have the following method\n\nsource\n\n\nplace_text_paint\n\n place_text_paint (text, px, py, font_size=24,\n                   color=ManimColor('#000000'), weight='NORMAL',\n                   anchor=array([-1.,  1.,  0.]), line_spacing=1.2,\n                   **kwargs)\n\nTo draw a straight line from a point a to b\n\nsource\n\n\nmake_line_paint\n\n make_line_paint (start_px, end_px, color=ManimColor('#000000'),\n                  stroke_width=42, system='manim')\n\nprovide the start point, end point and the axis(x or y ) that you want to draw the straight line in.\nThe following is a slightly complicated method used for generating the line items\n\nsource\n\n\ncreate_item_group\n\n create_item_group (item, item_number, row_x, row_y, row_width,\n                    row_height, draw_rect=False)\n\nThe invoice headers are generated using the following\n\nsource\n\n\ngenerate_header_specs_from_invoice\n\n generate_header_specs_from_invoice (invoice, frame_number=0)",
+    "crumbs": [
+      "Layout Creation"
+    ]
+  },
+  {
+    "objectID": "komatsu_page2.html#main-scene-class",
+    "href": "komatsu_page2.html#main-scene-class",
+    "title": "Layout Creation",
+    "section": "Main Scene class",
+    "text": "Main Scene class\n\nsource\n\nInvoiceScene\n\n InvoiceScene (frame_number=0, **kwargs)\n\n*A Scene is the canvas of your animation.\nThe primary role of :class:Scene is to provide the user with tools to manage mobjects and animations. Generally speaking, a manim script consists of a class that derives from :class:Scene whose :meth:Scene.construct method is overridden by the user’s code.\nMobjects are displayed on screen by calling :meth:Scene.add and removed from screen by calling :meth:Scene.remove. All mobjects currently on screen are kept in :attr:Scene.mobjects. Animations are played by calling :meth:Scene.play.\nA :class:Scene is rendered internally by calling :meth:Scene.render. This in turn calls :meth:Scene.setup, :meth:Scene.construct, and :meth:Scene.tear_down, in that order.\nIt is not recommended to override the __init__ method in user Scenes. For code that should be ran before a Scene is rendered, use :meth:Scene.setup instead.*\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nframe_number\nint\n0\nAdd frame_number parameter\n\n\nkwargs\nVAR_KEYWORD",
+    "crumbs": [
+      "Layout Creation"
+    ]
+  },
+  {
+    "objectID": "komatsu_page2.html#with-custom-data-path",
+    "href": "komatsu_page2.html#with-custom-data-path",
+    "title": "Layout Creation",
+    "section": "with custom data path",
+    "text": "with custom data path\n\nsource\n\nload_json_data_source\n\n load_json_data_source (data_source_path=None, data_source_url=None)\n\n*Load JSON data from various sources.\nArgs: data_source_path (str, optional): Path to local JSON file data_source_url (str, optional): URL to remote JSON endpoint\nReturns: dict/list: Loaded JSON data\nRaises: FileNotFoundError: If local file doesn’t exist requests.RequestException: If remote request fails json.JSONDecodeError: If JSON parsing fails*\n\nsource\n\n\nInvoiceSceneWithCustomData\n\n InvoiceSceneWithCustomData (frame_number=0, custom_data=None, **kwargs)\n\n*A Scene is the canvas of your animation.\nThe primary role of :class:Scene is to provide the user with tools to manage mobjects and animations. Generally speaking, a manim script consists of a class that derives from :class:Scene whose :meth:Scene.construct method is overridden by the user’s code.\nMobjects are displayed on screen by calling :meth:Scene.add and removed from screen by calling :meth:Scene.remove. All mobjects currently on screen are kept in :attr:Scene.mobjects. Animations are played by calling :meth:Scene.play.\nA :class:Scene is rendered internally by calling :meth:Scene.render. This in turn calls :meth:Scene.setup, :meth:Scene.construct, and :meth:Scene.tear_down, in that order.\nIt is not recommended to override the __init__ method in user Scenes. For code that should be ran before a Scene is rendered, use :meth:Scene.setup instead.*",
+    "crumbs": [
+      "Layout Creation"
+    ]
+  },
+  {
+    "objectID": "modeler.html",
+    "href": "modeler.html",
+    "title": "Modeler",
+    "section": "",
+    "text": "We will be using an AI tool to generate json required to render invoice images that will be fed into the training pipeline. There are multiple helper methods you can use for this :",
+    "crumbs": [
+      "Modeler"
+    ]
+  },
+  {
+    "objectID": "modeler.html#inspectors",
+    "href": "modeler.html#inspectors",
+    "title": "Modeler",
+    "section": "Inspectors",
+    "text": "Inspectors\nWe will be using the AI tool to impart different patterns i.e repeating line descriptions, multiple country of origins, same part numbers for different line descriptions . This is going to be an iterative process. The following are the methods that can be used to examine the json data we generate this way to feed into the model along with the invoice images for the training.\n\nsource\n\nflatten_json_items\n\n flatten_json_items (path, rows=50)\n\nLoad JSON and concatenate all ‘items’ lists into one DataFrame.",
+    "crumbs": [
+      "Modeler"
+    ]
+  }
+]
