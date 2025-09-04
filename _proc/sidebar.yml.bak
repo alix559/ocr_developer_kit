@@ -1,0 +1,8 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_card.ipynb
+      - 00_deck.ipynb
+      - 00_komatsu_page2.ipynb
+      - 01_renderer.ipynb

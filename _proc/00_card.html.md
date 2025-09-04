@@ -52,8 +52,6 @@ ranks[1]
 
 ---
 
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/card.py#L16){target="_blank" style="float:right; font-size:smaller"}
-
 ### Card
 
 >      Card (suit, rank)
@@ -81,8 +79,6 @@ c
 
 ---
 
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/card.py#L30){target="_blank" style="float:right; font-size:smaller"}
-
 ### Card.__eq__
 
 >      Card.__eq__ (a:__main__.Card)
@@ -100,8 +96,6 @@ test_ne(Card(suit=1,rank=2), Card(suit=1,rank=3))
 
 
 ---
-
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/card.py#L34){target="_blank" style="float:right; font-size:smaller"}
 
 ### Card.__gt__
 

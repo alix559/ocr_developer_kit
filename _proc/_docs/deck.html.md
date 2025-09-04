@@ -6,26 +6,124 @@
 ------------------------------------------------------------------------
 
 <a
-href="https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L7"
+href="https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L13"
 target="_blank" style="float:right; font-size:smaller">source</a>
 
 ### Deck
 
 >  Deck ()
 
-*Initialize self. See help(type(self)) for accurate signature.*
+*A deck of 52 cards, not including jokers*
 
 ``` python
-Deck()
+deck = Deck()
+deck
 ```
 
     A♣️; 2♣️; 3♣️; 4♣️; 5♣️; 6♣️; 7♣️; 8♣️; 9♣️; 10♣️; J♣️; Q♣️; K♣️; A♦️; 2♦️; 3♦️; 4♦️; 5♦️; 6♦️; 7♦️; 8♦️; 9♦️; 10♦️; J♦️; Q♦️; K♦️; A♥️; 2♥️; 3♥️; 4♥️; 5♥️; 6♥️; 7♥️; 8♥️; 9♥️; 10♥️; J♥️; Q♥️; K♥️; A♠️; 2♠️; 3♠️; 4♠️; 5♠️; 6♠️; 7♠️; 8♠️; 9♠️; 10♠️; J♠️; Q♠️; K♠️
 
+That should be 52 cards.
+
 ``` python
-Deck(
+test_eq(len(deck), 52)
 ```
 
-    Init signature: Deck()
-    Docstring:      <no docstring>
-    Type:           type
-    Subclasses:     
+As a reminder , these are the suits we defined for a card:
+
+``` python
+suits
+```
+
+    ['♣️', '♦️', '♥️', '♠️']
+
+We can check if , say, the Ace of clubs is in the deck
+
+``` python
+Card(1,1) in deck
+```
+
+    True
+
+------------------------------------------------------------------------
+
+<a
+href="https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L23"
+target="_blank" style="float:right; font-size:smaller">source</a>
+
+### Deck.pop
+
+>  Deck.pop (idx:int=-1)
+
+*Remove one card from the deck*
+
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 25%" />
+<col style="width: 34%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th></th>
+<th><strong>Type</strong></th>
+<th><strong>Default</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>idx</td>
+<td>int</td>
+<td>-1</td>
+<td>The index of the card to remove , defaulting to the last one</td>
+</tr>
+</tbody>
+</table>
+
+``` python
+deck = Deck()
+test_eq(deck.pop(), Card(3,13))
+```
+
+There are 51 cards left in the deck now
+
+``` python
+test_eq(len(deck), 51)
+```
+
+------------------------------------------------------------------------
+
+<a
+href="https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L30"
+target="_blank" style="float:right; font-size:smaller">source</a>
+
+### Deck.remove
+
+>  Deck.remove (card:ocr_developer_kit.card.Card)
+
+*Removes `card` from the deck or raises exception if it is not there*
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Type</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>card</td>
+<td>Card</td>
+<td>Card to remove</td>
+</tr>
+</tbody>
+</table>
+
+``` python
+card23 = Card(2,3)
+deck.remove(card23)
+
+assert card23 not in deck
+```

@@ -6,62 +6,148 @@
 This file will become your README and also the index of your
 documentation.
 
-## Developer Guide
-
-If you are new to using `nbdev` here are some useful pointers to get you
-started.
-
-### Install ocr_developer_kit in Development mode
-
-``` sh
-# make sure ocr_developer_kit package is installed in development mode
-$ pip install -e .
-
-# make changes under nbs/ directory
-# ...
-
-# compile to have changes apply to ocr_developer_kit
-$ nbdev_prepare
-```
-
-## Usage
-
-### Installation
-
-Install latest from the GitHub
-[repository](https://github.com/alix559/ocr_developer_kit):
-
-``` sh
-$ pip install git+https://github.com/alix559/ocr_developer_kit.git
-```
-
-or from [conda](https://anaconda.org/alix559/ocr_developer_kit)
-
-``` sh
-$ conda install -c alix559 ocr_developer_kit
-```
-
-or from [pypi](https://pypi.org/project/ocr_developer_kit/)
-
-``` sh
-$ pip install ocr_developer_kit
-```
-
-### Documentation
-
-Documentation can be found hosted on this GitHub
-[repository](https://github.com/alix559/ocr_developer_kit)’s
-[pages](https://alix559.github.io/ocr_developer_kit/). Additionally you
-can find package manager specific guidelines on
-[conda](https://anaconda.org/alix559/ocr_developer_kit) and
-[pypi](https://pypi.org/project/ocr_developer_kit/) respectively.
-
 ## How to use
 
-Fill me in please! Don’t forget code examples:
-
 ``` python
-1+1
+render_single_page(2)
 ```
 
-    2
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7fbfbf; text-decoration-color: #7fbfbf">[08/29/25 15:11:58] </span><span style="color: #008000; text-decoration-color: #008000">INFO    </span>                                                               <a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene_file_writer.py" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">scene_file_writer.py</span></a><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">:</span><a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene_file_writer.py#886" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">886</span></a>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">File</span> ready at                                                 <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #008000; text-decoration-color: #008000">'/home/ajacob/mlprojects/ocr/ocr_developer_kit/nbs/media/imag</span> <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #008000; text-decoration-color: #008000">es/InvoiceScene_ManimCE_v0.19.0.png'</span>                          <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>                                                                       <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+</pre>
+
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span><span style="color: #008000; text-decoration-color: #008000">INFO    </span> <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">Rendered</span> InvoiceScene                                                     <a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene.py" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">scene.py</span></a><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">:</span><a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene.py#255" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">255</span></a>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">Played</span> <span style="color: #008000; text-decoration-color: #008000">0</span> <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">animations</span>                                                       <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">            </span>
+</pre>
+
+    Frame 2 rendered successfully
+
+``` python
+render_with_custom_data("/home/ajacob/mlprojects/ocr/ocr_developer_kit/ocr_developer_kit/invoice_data.json", 1)
+```
+
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7fbfbf; text-decoration-color: #7fbfbf">[08/29/25 15:12:03] </span><span style="color: #008000; text-decoration-color: #008000">INFO    </span>                                                               <a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene_file_writer.py" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">scene_file_writer.py</span></a><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">:</span><a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene_file_writer.py#886" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">886</span></a>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">File</span> ready at                                                 <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #008000; text-decoration-color: #008000">'/home/ajacob/mlprojects/ocr/ocr_developer_kit/nbs/media/imag</span> <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #008000; text-decoration-color: #008000">es/InvoiceScene_ManimCE_v0.19.0.png'</span>                          <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>                                                                       <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">                        </span>
+</pre>
+
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span><span style="color: #008000; text-decoration-color: #008000">INFO    </span> <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">Rendered</span> InvoiceSceneWithCustomData                                       <a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene.py" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">scene.py</span></a><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">:</span><a href="file:///home/ajacob/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/manim/scene/scene.py#255" target="_blank"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f">255</span></a>
+<span style="color: #7fbfbf; text-decoration-color: #7fbfbf">                    </span>         <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">Played</span> <span style="color: #008000; text-decoration-color: #008000">0</span> <span style="color: #808000; text-decoration-color: #808000; font-weight: bold">animations</span>                                                       <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">            </span>
+</pre>
+
+    Frame 1 rendered successfully from custom data source
+
+``` python
+create_numerical_file_picker()
+```
+
+    TraitError: The 'value' trait of an IntText instance expected an int, not the str ''.
+    [31m---------------------------------------------------------------------------[39m
+    [31mValueError[39m                                Traceback (most recent call last)
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:2691[39m, in [36mCInt.validate[39m[34m(self, obj, value)[39m
+    [32m   2690[39m [38;5;28;01mtry[39;00m:
+    [32m-> [39m[32m2691[39m     value = [38;5;28;43mint[39;49m[43m([49m[43mvalue[49m[43m)[49m
+    [32m   2692[39m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m:
+
+    [31mValueError[39m: invalid literal for int() with base 10: ''
+
+    During handling of the above exception, another exception occurred:
+
+    [31mTraitError[39m                                Traceback (most recent call last)
+    [36mCell[39m[36m [39m[32mIn[4][39m[32m, line 1[39m
+    [32m----> [39m[32m1[39m [43mcreate_numerical_file_picker[49m[43m([49m[43m)[49m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/ocr_developer_kit/renderer.py:52[39m, in [36mcreate_numerical_file_picker[39m[34m()[39m
+    [32m     43[39m file_path = widgets.Text(
+    [32m     44[39m     value=[33m'[39m[33m'[39m,
+    [32m     45[39m     placeholder=[33m'[39m[33mEnter path to JSON file[39m[33m'[39m,
+    [32m   (...)[39m[32m     48[39m     layout=widgets.Layout(width=[33m'[39m[33m500px[39m[33m'[39m)
+    [32m     49[39m )
+    [32m     51[39m [38;5;66;03m# Fixed numerical frame input[39;00m
+    [32m---> [39m[32m52[39m frame_num = [43mwidgets[49m[43m.[49m[43mIntText[49m[43m([49m
+    [32m     53[39m [43m    [49m[43mvalue[49m[43m=[49m[33;43m'[39;49m[33;43m'[39;49m[43m,[49m
+    [32m     54[39m [43m    [49m[43mplaceholder[49m[43m=[49m[33;43m'[39;49m[33;43menterframe number[39;49m[33;43m'[39;49m[43m,[49m
+    [32m     55[39m [43m    [49m[43mdescription[49m[43m=[49m[33;43m'[39;49m[33;43mFrame:[39;49m[33;43m'[39;49m[43m,[49m
+    [32m     56[39m [43m    [49m[43mstyle[49m[43m=[49m[43m{[49m[33;43m'[39;49m[33;43mdescription_width[39;49m[33;43m'[39;49m[43m:[49m[43m [49m[33;43m'[39;49m[33;43m80px[39;49m[33;43m'[39;49m[43m}[49m[43m,[49m
+    [32m     57[39m [43m    [49m[43mlayout[49m[43m=[49m[43mwidgets[49m[43m.[49m[43mLayout[49m[43m([49m[43mwidth[49m[43m=[49m[33;43m'[39;49m[33;43m100px[39;49m[33;43m'[39;49m[43m)[49m[43m,[49m
+    [32m     58[39m [43m[49m[43m)[49m
+    [32m     60[39m [38;5;66;03m# Render button[39;00m
+    [32m     61[39m render_btn = widgets.Button(
+    [32m     62[39m     description=[33m'[39m[33m🚀 Render[39m[33m'[39m,
+    [32m     63[39m     button_style=[33m'[39m[33msuccess[39m[33m'[39m,
+    [32m     64[39m     layout=widgets.Layout(width=[33m'[39m[33m120px[39m[33m'[39m)
+    [32m     65[39m )
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/ipywidgets/widgets/widget_int.py:46[39m, in [36m_int_doc.<locals>.__init__[39m[34m(self, value, **kwargs)[39m
+    [32m     44[39m [38;5;28;01mif[39;00m value [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+    [32m     45[39m     kwargs[[33m'[39m[33mvalue[39m[33m'[39m] = value
+    [32m---> [39m[32m46[39m [38;5;28;43msuper[39;49m[43m([49m[38;5;28;43mcls[39;49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[43m)[49m[43m.[49m[34;43m__init__[39;49m[43m([49m[43m*[49m[43m*[49m[43mkwargs[49m[43m)[49m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/ipywidgets/widgets/widget_int.py:77[39m, in [36m_Int.__init__[39m[34m(self, value, **kwargs)[39m
+    [32m     75[39m [38;5;28;01mif[39;00m value [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+    [32m     76[39m     kwargs[[33m'[39m[33mvalue[39m[33m'[39m] = value
+    [32m---> [39m[32m77[39m [38;5;28;43msuper[39;49m[43m([49m[43m)[49m[43m.[49m[34;43m__init__[39;49m[43m([49m[43m*[49m[43m*[49m[43mkwargs[49m[43m)[49m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/ipywidgets/widgets/widget_description.py:35[39m, in [36mDescriptionWidget.__init__[39m[34m(self, *args, **kwargs)[39m
+    [32m     33[39m     kwargs.setdefault([33m'[39m[33mtooltip[39m[33m'[39m, kwargs[[33m'[39m[33mdescription_tooltip[39m[33m'[39m])
+    [32m     34[39m     [38;5;28;01mdel[39;00m kwargs[[33m'[39m[33mdescription_tooltip[39m[33m'[39m]
+    [32m---> [39m[32m35[39m [38;5;28;43msuper[39;49m[43m([49m[43m)[49m[43m.[49m[34;43m__init__[39;49m[43m([49m[43m*[49m[43margs[49m[43m,[49m[43m [49m[43m*[49m[43m*[49m[43mkwargs[49m[43m)[49m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/ipywidgets/widgets/widget.py:503[39m, in [36mWidget.__init__[39m[34m(self, **kwargs)[39m
+    [32m    501[39m [38;5;250m[39m[33;03m"""Public constructor"""[39;00m
+    [32m    502[39m [38;5;28mself[39m._model_id = kwargs.pop([33m'[39m[33mmodel_id[39m[33m'[39m, [38;5;28;01mNone[39;00m)
+    [32m--> [39m[32m503[39m [38;5;28;43msuper[39;49m[43m([49m[43m)[49m[43m.[49m[34;43m__init__[39;49m[43m([49m[43m*[49m[43m*[49m[43mkwargs[49m[43m)[49m
+    [32m    505[39m Widget._call_widget_constructed([38;5;28mself[39m)
+    [32m    506[39m [38;5;28mself[39m.open()
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:1355[39m, in [36mHasTraits.__init__[39m[34m(self, *args, **kwargs)[39m
+    [32m   1353[39m [38;5;28;01mfor[39;00m key, value [38;5;129;01min[39;00m kwargs.items():
+    [32m   1354[39m     [38;5;28;01mif[39;00m [38;5;28mself[39m.has_trait(key):
+    [32m-> [39m[32m1355[39m         [38;5;28;43msetattr[39;49m[43m([49m[38;5;28;43mself[39;49m[43m,[49m[43m [49m[43mkey[49m[43m,[49m[43m [49m[43mvalue[49m[43m)[49m
+    [32m   1356[39m         changes[key] = Bunch(
+    [32m   1357[39m             name=key,
+    [32m   1358[39m             old=[38;5;28;01mNone[39;00m,
+    [32m   (...)[39m[32m   1361[39m             [38;5;28mtype[39m=[33m"[39m[33mchange[39m[33m"[39m,
+    [32m   1362[39m         )
+    [32m   1363[39m     [38;5;28;01melse[39;00m:
+    [32m   1364[39m         [38;5;66;03m# passthrough args that don't set traits to super[39;00m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:716[39m, in [36mTraitType.__set__[39m[34m(self, obj, value)[39m
+    [32m    714[39m [38;5;28;01mif[39;00m [38;5;28mself[39m.read_only:
+    [32m    715[39m     [38;5;28;01mraise[39;00m TraitError([33m'[39m[33mThe [39m[33m"[39m[38;5;132;01m%s[39;00m[33m"[39m[33m trait is read-only.[39m[33m'[39m % [38;5;28mself[39m.name)
+    [32m--> [39m[32m716[39m [38;5;28;43mself[39;49m[43m.[49m[43mset[49m[43m([49m[43mobj[49m[43m,[49m[43m [49m[43mvalue[49m[43m)[49m
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:690[39m, in [36mTraitType.set[39m[34m(self, obj, value)[39m
+    [32m    689[39m [38;5;28;01mdef[39;00m[38;5;250m [39m[34mset[39m([38;5;28mself[39m, obj: HasTraits, value: S) -> [38;5;28;01mNone[39;00m:
+    [32m--> [39m[32m690[39m     new_value = [38;5;28;43mself[39;49m[43m.[49m[43m_validate[49m[43m([49m[43mobj[49m[43m,[49m[43m [49m[43mvalue[49m[43m)[49m
+    [32m    691[39m     [38;5;28;01massert[39;00m [38;5;28mself[39m.name [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m
+    [32m    692[39m     [38;5;28;01mtry[39;00m:
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:722[39m, in [36mTraitType._validate[39m[34m(self, obj, value)[39m
+    [32m    720[39m     [38;5;28;01mreturn[39;00m value
+    [32m    721[39m [38;5;28;01mif[39;00m [38;5;28mhasattr[39m([38;5;28mself[39m, [33m"[39m[33mvalidate[39m[33m"[39m):
+    [32m--> [39m[32m722[39m     value = [38;5;28;43mself[39;49m[43m.[49m[43mvalidate[49m[43m([49m[43mobj[49m[43m,[49m[43m [49m[43mvalue[49m[43m)[49m
+    [32m    723[39m [38;5;28;01mif[39;00m obj._cross_validation_lock [38;5;129;01mis[39;00m [38;5;28;01mFalse[39;00m:
+    [32m    724[39m     value = [38;5;28mself[39m._cross_validate(obj, value)
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:2693[39m, in [36mCInt.validate[39m[34m(self, obj, value)[39m
+    [32m   2691[39m     value = [38;5;28mint[39m(value)
+    [32m   2692[39m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m:
+    [32m-> [39m[32m2693[39m     [38;5;28;43mself[39;49m[43m.[49m[43merror[49m[43m([49m[43mobj[49m[43m,[49m[43m [49m[43mvalue[49m[43m)[49m
+    [32m   2694[39m [38;5;28;01mreturn[39;00m t.cast(G, _validate_bounds([38;5;28mself[39m, obj, value))
+
+    [36mFile [39m[32m~/mlprojects/ocr/ocr_developer_kit/.pixi/envs/default/lib/python3.12/site-packages/traitlets/traitlets.py:831[39m, in [36mTraitType.error[39m[34m(self, obj, value, error, info)[39m
+    [32m    825[39m [38;5;28;01melse[39;00m:
+    [32m    826[39m     e = [33m"[39m[33mThe [39m[33m'[39m[38;5;132;01m{}[39;00m[33m'[39m[33m trait expected [39m[38;5;132;01m{}[39;00m[33m, not [39m[38;5;132;01m{}[39;00m[33m.[39m[33m"[39m.format(
+    [32m    827[39m         [38;5;28mself[39m.name,
+    [32m    828[39m         info [38;5;129;01mor[39;00m [38;5;28mself[39m.info(),
+    [32m    829[39m         describe([33m"[39m[33mthe[39m[33m"[39m, value),
+    [32m    830[39m     )
+    [32m--> [39m[32m831[39m [38;5;28;01mraise[39;00m TraitError(e)
+
+    [31mTraitError[39m: The 'value' trait of an IntText instance expected an int, not the str ''.

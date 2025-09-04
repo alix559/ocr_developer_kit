@@ -1,0 +1,866 @@
+[
+    {
+        "invoice_number": "9941973384",
+        "invoice_date": "2024-12-25",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64028C",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "4.00",
+                "unit_price": "697.65",
+                "extended_price": "2790.60"
+            },
+            {
+                "part_number": "P20218Z",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CAN",
+                "quantity": "11.00",
+                "unit_price": "421.45",
+                "extended_price": "4635.95"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039814",
+        "invoice_date": "2024-12-21",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29158F",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "CHN",
+                "quantity": "8.00",
+                "unit_price": "182.50",
+                "extended_price": "1460.00"
+            },
+            {
+                "part_number": "P77621A",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "20.00",
+                "unit_price": "740.87",
+                "extended_price": "14817.40"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939532",
+        "invoice_date": "2024-12-13",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22910I",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "2.00",
+                "unit_price": "225.48",
+                "extended_price": "450.96"
+            },
+            {
+                "part_number": "P85394V",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "18.00",
+                "unit_price": "807.66",
+                "extended_price": "14537.88"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973385",
+        "invoice_date": "2024-12-26",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64029D",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "6.00",
+                "unit_price": "720.00",
+                "extended_price": "4320.00"
+            },
+            {
+                "part_number": "P29159G",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "12.00",
+                "unit_price": "195.00",
+                "extended_price": "2340.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039815",
+        "invoice_date": "2024-12-22",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77622B",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "15.00",
+                "unit_price": "750.00",
+                "extended_price": "11250.00"
+            },
+            {
+                "part_number": "P22911J",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "8.00",
+                "unit_price": "230.00",
+                "extended_price": "1840.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939533",
+        "invoice_date": "2024-12-14",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85395W",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "10.00",
+                "unit_price": "820.00",
+                "extended_price": "8200.00"
+            },
+            {
+                "part_number": "P64030E",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "3.00",
+                "unit_price": "710.00",
+                "extended_price": "2130.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973386",
+        "invoice_date": "2024-12-27",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29160H",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "16.00",
+                "unit_price": "185.00",
+                "extended_price": "2960.00"
+            },
+            {
+                "part_number": "P77623C",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "25.00",
+                "unit_price": "745.00",
+                "extended_price": "18625.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039816",
+        "invoice_date": "2024-12-23",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22912K",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "14.00",
+                "unit_price": "235.00",
+                "extended_price": "3290.00"
+            },
+            {
+                "part_number": "P85396X",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "22.00",
+                "unit_price": "815.00",
+                "extended_price": "17930.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939534",
+        "invoice_date": "2024-12-15",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64031F",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "9.00",
+                "unit_price": "705.00",
+                "extended_price": "6345.00"
+            },
+            {
+                "part_number": "P29161I",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "7.00",
+                "unit_price": "190.00",
+                "extended_price": "1330.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973387",
+        "invoice_date": "2024-12-28",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77624D",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "18.00",
+                "unit_price": "735.00",
+                "extended_price": "13230.00"
+            },
+            {
+                "part_number": "P22913L",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "5.00",
+                "unit_price": "240.00",
+                "extended_price": "1200.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039817",
+        "invoice_date": "2024-12-24",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85397Y",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "12.00",
+                "unit_price": "810.00",
+                "extended_price": "9720.00"
+            },
+            {
+                "part_number": "P64032G",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "7.00",
+                "unit_price": "700.00",
+                "extended_price": "4900.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939535",
+        "invoice_date": "2024-12-16",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29162J",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "20.00",
+                "unit_price": "188.00",
+                "extended_price": "3760.00"
+            },
+            {
+                "part_number": "P77625E",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "30.00",
+                "unit_price": "740.00",
+                "extended_price": "22200.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973388",
+        "invoice_date": "2024-12-29",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22914M",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "11.00",
+                "unit_price": "245.00",
+                "extended_price": "2695.00"
+            },
+            {
+                "part_number": "P85398Z",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "16.00",
+                "unit_price": "805.00",
+                "extended_price": "12880.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039818",
+        "invoice_date": "2024-12-25",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64033H",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "13.00",
+                "unit_price": "695.00",
+                "extended_price": "9035.00"
+            },
+            {
+                "part_number": "P29163K",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "9.00",
+                "unit_price": "192.00",
+                "extended_price": "1728.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939536",
+        "invoice_date": "2024-12-17",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77626F",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "24.00",
+                "unit_price": "730.00",
+                "extended_price": "17520.00"
+            },
+            {
+                "part_number": "P22915N",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "17.00",
+                "unit_price": "250.00",
+                "extended_price": "4250.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973389",
+        "invoice_date": "2024-12-30",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85399A",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "19.00",
+                "unit_price": "800.00",
+                "extended_price": "15200.00"
+            },
+            {
+                "part_number": "P64034I",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "5.00",
+                "unit_price": "690.00",
+                "extended_price": "3450.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039819",
+        "invoice_date": "2024-12-26",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29164L",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "14.00",
+                "unit_price": "195.00",
+                "extended_price": "2730.00"
+            },
+            {
+                "part_number": "P77627G",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "28.00",
+                "unit_price": "725.00",
+                "extended_price": "20300.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939537",
+        "invoice_date": "2024-12-18",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22916O",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "21.00",
+                "unit_price": "255.00",
+                "extended_price": "5355.00"
+            },
+            {
+                "part_number": "P85400B",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "8.00",
+                "unit_price": "795.00",
+                "extended_price": "6360.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973390",
+        "invoice_date": "2024-12-31",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64035J",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "16.00",
+                "unit_price": "685.00",
+                "extended_price": "10960.00"
+            },
+            {
+                "part_number": "P29165M",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "11.00",
+                "unit_price": "198.00",
+                "extended_price": "2178.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039820",
+        "invoice_date": "2024-12-27",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77628H",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "32.00",
+                "unit_price": "720.00",
+                "extended_price": "23040.00"
+            },
+            {
+                "part_number": "P22917P",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "25.00",
+                "unit_price": "260.00",
+                "extended_price": "6500.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939538",
+        "invoice_date": "2024-12-19",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85401C",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "14.00",
+                "unit_price": "790.00",
+                "extended_price": "11060.00"
+            },
+            {
+                "part_number": "P64036K",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "10.00",
+                "unit_price": "680.00",
+                "extended_price": "6800.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973391",
+        "invoice_date": "2025-01-01",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29166N",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "18.00",
+                "unit_price": "200.00",
+                "extended_price": "3600.00"
+            },
+            {
+                "part_number": "P77629I",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "26.00",
+                "unit_price": "715.00",
+                "extended_price": "18590.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039821",
+        "invoice_date": "2024-12-28",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22918Q",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "29.00",
+                "unit_price": "265.00",
+                "extended_price": "7685.00"
+            },
+            {
+                "part_number": "P85402D",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "6.00",
+                "unit_price": "785.00",
+                "extended_price": "4710.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939539",
+        "invoice_date": "2024-12-20",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64037L",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "22.00",
+                "unit_price": "675.00",
+                "extended_price": "14850.00"
+            },
+            {
+                "part_number": "P29167O",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "13.00",
+                "unit_price": "202.00",
+                "extended_price": "2626.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973392",
+        "invoice_date": "2025-01-02",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77630J",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "34.00",
+                "unit_price": "710.00",
+                "extended_price": "24140.00"
+            },
+            {
+                "part_number": "P22919R",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "33.00",
+                "unit_price": "270.00",
+                "extended_price": "8910.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039822",
+        "invoice_date": "2024-12-29",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85403E",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "20.00",
+                "unit_price": "780.00",
+                "extended_price": "15600.00"
+            },
+            {
+                "part_number": "P64038M",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "15.00",
+                "unit_price": "670.00",
+                "extended_price": "10050.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939540",
+        "invoice_date": "2024-12-21",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29168P",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "24.00",
+                "unit_price": "205.00",
+                "extended_price": "4920.00"
+            },
+            {
+                "part_number": "P77631K",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "36.00",
+                "unit_price": "705.00",
+                "extended_price": "25380.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973393",
+        "invoice_date": "2025-01-03",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22920S",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "37.00",
+                "unit_price": "275.00",
+                "extended_price": "10175.00"
+            },
+            {
+                "part_number": "P85404F",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "12.00",
+                "unit_price": "775.00",
+                "extended_price": "9300.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039823",
+        "invoice_date": "2024-12-30",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64039N",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "28.00",
+                "unit_price": "665.00",
+                "extended_price": "18620.00"
+            },
+            {
+                "part_number": "P29169Q",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "19.00",
+                "unit_price": "208.00",
+                "extended_price": "3952.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939541",
+        "invoice_date": "2024-12-22",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77632L",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "38.00",
+                "unit_price": "700.00",
+                "extended_price": "26600.00"
+            },
+            {
+                "part_number": "P22921T",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "41.00",
+                "unit_price": "280.00",
+                "extended_price": "11480.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973394",
+        "invoice_date": "2025-01-04",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85405G",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "26.00",
+                "unit_price": "770.00",
+                "extended_price": "20020.00"
+            },
+            {
+                "part_number": "P64040O",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "31.00",
+                "unit_price": "660.00",
+                "extended_price": "20460.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039824",
+        "invoice_date": "2024-12-31",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29170R",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "26.00",
+                "unit_price": "210.00",
+                "extended_price": "5460.00"
+            },
+            {
+                "part_number": "P77633M",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "40.00",
+                "unit_price": "695.00",
+                "extended_price": "27800.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939542",
+        "invoice_date": "2024-12-23",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22922U",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "45.00",
+                "unit_price": "285.00",
+                "extended_price": "12825.00"
+            },
+            {
+                "part_number": "P85406H",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "18.00",
+                "unit_price": "765.00",
+                "extended_price": "13770.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9941973395",
+        "invoice_date": "2025-01-05",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64041P",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "34.00",
+                "unit_price": "655.00",
+                "extended_price": "22270.00"
+            },
+            {
+                "part_number": "P29171S",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "USA",
+                "quantity": "21.00",
+                "unit_price": "212.00",
+                "extended_price": "4452.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039825",
+        "invoice_date": "2025-01-01",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P77634N",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "42.00",
+                "unit_price": "690.00",
+                "extended_price": "28980.00"
+            },
+            {
+                "part_number": "P22923V",
+                "description": "THERMOCOUPLE TYPE-K 1000°C",
+                "country_of_origin": "GER",
+                "quantity": "49.00",
+                "unit_price": "290.00",
+                "extended_price": "14210.00"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939543",
+        "invoice_date": "2024-12-24",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P85407I",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "24.00",
+                "unit_price": "760.00",
+                "extended_price": "18240.00"
+            },
+            {
+                "part_number": "P64042Q",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "37.00",
+                "unit_price": "650.00",
+                "extended_price": "24050.00"
+            }
+        ]
+    }
+]

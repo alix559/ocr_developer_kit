@@ -1,0 +1,90 @@
+[
+    {
+        "invoice_number": "9941973384",
+        "invoice_date": "2024-12-25",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P64028C",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CHN",
+                "quantity": "4.00",
+                "unit_price": "697.65",
+                "extended_price": "2790.60"
+            },
+            {
+                "part_number": "P20218Z",
+                "description": "MOTOR, ELECTRIC 230V 5HP",
+                "country_of_origin": "CAN",
+                "quantity": "11.00",
+                "unit_price": "421.45",
+                "extended_price": "4635.95"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9370039814",
+        "invoice_date": "2024-12-21",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P29158F",
+                "description": "SOLENOID VALVE, 24VDC",
+                "country_of_origin": "CHN",
+                "quantity": "8.00",
+                "unit_price": "182.50",
+                "extended_price": "1460.00"
+            },
+            {
+                "part_number": "P77621A",
+                "description": "GAUGE PRESSURE, 04 ORB MD-5000 PSI",
+                "country_of_origin": "MEX",
+                "quantity": "20.00",
+                "unit_price": "740.87",
+                "extended_price": "14817.40"
+            },
+            {
+                "part_number": "P94078S",
+                "description": "GEARBOX, 4:1 RATIO",
+                "country_of_origin": "KOR",
+                "quantity": "20.00",
+                "unit_price": "1020.91",
+                "extended_price": "20418.20"
+            }
+        ]
+    },
+    {
+        "invoice_number": "9362939532",
+        "invoice_date": "2024-12-13",
+        "currency": "USD",
+        "buyer": "JOY GLOBAL CANADA",
+        "items": [
+            {
+                "part_number": "P22910I",
+                "description": "THERMOCOUPLE TYPE\u2011K 1000\u202f\u00b0C",
+                "country_of_origin": "GER",
+                "quantity": "2.00",
+                "unit_price": "225.48",
+                "extended_price": "450.96"
+            },
+            {
+                "part_number": "P85394V",
+                "description": "VALVE ASSEMBLY, RELIEF 3000 PSI",
+                "country_of_origin": "GER",
+                "quantity": "18.00",
+                "unit_price": "807.66",
+                "extended_price": "14537.88"
+            },
+            {
+                "part_number": "P51432F",
+                "description": "SEAL KIT, HYD CYLINDER \u00d850MM",
+                "country_of_origin": "KOR",
+                "quantity": "20.00",
+                "unit_price": "973.60",
+                "extended_price": "19472.00"
+            }
+        ]
+    }
+]

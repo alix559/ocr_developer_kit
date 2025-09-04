@@ -2,5 +2,7 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_card.ipynb
-      - 00_deck.ipynb
+      - 01_instruction_manual.ipynb
+      - 02_modeler.ipynb
+      - 02_renderer.ipynb
+      - 03_komatsu_page2.ipynb

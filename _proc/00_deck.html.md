@@ -9,7 +9,7 @@ title: deck
 
 ---
 
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L7){target="_blank" style="float:right; font-size:smaller"}
+[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L13){target="_blank" style="float:right; font-size:smaller"}
 
 ### Deck
 
@@ -18,13 +18,13 @@ title: deck
 *A deck of 52 cards, not including jokers*
 
 
-::: {#cell-3 .cell execution_count=32}
+::: {#cell-3 .cell execution_count=3}
 ``` {.python .cell-code}
 deck = Deck()
 deck
 ```
 
-::: {.cell-output .cell-output-display execution_count=32}
+::: {.cell-output .cell-output-display execution_count=3}
 ```
 A♣️; 2♣️; 3♣️; 4♣️; 5♣️; 6♣️; 7♣️; 8♣️; 9♣️; 10♣️; J♣️; Q♣️; K♣️; A♦️; 2♦️; 3♦️; 4♦️; 5♦️; 6♦️; 7♦️; 8♦️; 9♦️; 10♦️; J♦️; Q♦️; K♦️; A♥️; 2♥️; 3♥️; 4♥️; 5♥️; 6♥️; 7♥️; 8♥️; 9♥️; 10♥️; J♥️; Q♥️; K♥️; A♠️; 2♠️; 3♠️; 4♠️; 5♠️; 6♠️; 7♠️; 8♠️; 9♠️; 10♠️; J♠️; Q♠️; K♠️
 ```
@@ -34,7 +34,7 @@ A♣️; 2♣️; 3♣️; 4♣️; 5♣️; 6♣️; 7♣️; 8♣️; 9♣️;
 
 That should be 52 cards.
 
-::: {#cell-5 .cell execution_count=33}
+::: {#cell-5 .cell execution_count=4}
 ``` {.python .cell-code}
 test_eq(len(deck), 52)
 ```
@@ -43,12 +43,12 @@ test_eq(len(deck), 52)
 
 As a reminder , these are the suits we defined for a card:
 
-::: {#cell-7 .cell execution_count=34}
+::: {#cell-7 .cell execution_count=5}
 ``` {.python .cell-code}
 suits
 ```
 
-::: {.cell-output .cell-output-display execution_count=34}
+::: {.cell-output .cell-output-display execution_count=5}
 ```
 ['♣️', '♦️', '♥️', '♠️']
 ```
@@ -58,12 +58,12 @@ suits
 
 We can check if , say, the Ace of clubs is in the deck 
 
-::: {#cell-9 .cell execution_count=35}
+::: {#cell-9 .cell execution_count=6}
 ``` {.python .cell-code}
 Card(1,1) in deck
 ```
 
-::: {.cell-output .cell-output-display execution_count=35}
+::: {.cell-output .cell-output-display execution_count=6}
 ```
 True
 ```
@@ -73,7 +73,7 @@ True
 
 ---
 
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L17){target="_blank" style="float:right; font-size:smaller"}
+[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L23){target="_blank" style="float:right; font-size:smaller"}
 
 ### Deck.pop
 
@@ -86,7 +86,7 @@ True
 | idx | int | -1 | The index of the card to remove , defaulting to the last one |
 
 
-::: {#cell-11 .cell execution_count=38}
+::: {#cell-11 .cell execution_count=8}
 ``` {.python .cell-code}
 deck = Deck()
 test_eq(deck.pop(), Card(3,13))
@@ -96,7 +96,7 @@ test_eq(deck.pop(), Card(3,13))
 
 There are 51 cards left in the deck now
 
-::: {#cell-13 .cell execution_count=39}
+::: {#cell-13 .cell execution_count=9}
 ``` {.python .cell-code}
 test_eq(len(deck), 51)
 ```
@@ -105,7 +105,7 @@ test_eq(len(deck), 51)
 
 ---
 
-[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L24){target="_blank" style="float:right; font-size:smaller"}
+[source](https://github.com/alix559/ocr_developer_kit/blob/main/ocr_developer_kit/deck.py#L30){target="_blank" style="float:right; font-size:smaller"}
 
 ### Deck.remove
 
@@ -118,33 +118,13 @@ test_eq(len(deck), 51)
 | card | Card | Card to remove |
 
 
-::: {#cell-15 .cell execution_count=41}
+::: {#cell-15 .cell execution_count=11}
 ``` {.python .cell-code}
 card23 = Card(2,3)
 deck.remove(card23)
 
 assert card23 not in deck
 ```
-:::
-
-
-::: {#cell-16 .cell execution_count=4}
-``` {.python .cell-code}
-Deck(
-```
-
-::: {.cell-output .cell-output-display}
-
-::: {.ansi-escaped-output}
-```{=html}
-<pre><span class="ansi-red-fg">Init signature:</span> Deck()
-<span class="ansi-red-fg">Docstring:</span>      &lt;no docstring&gt;
-<span class="ansi-red-fg">Type:</span>           type
-<span class="ansi-red-fg">Subclasses:</span>     </pre>
-```
-:::
-
-:::
 :::
 
 
